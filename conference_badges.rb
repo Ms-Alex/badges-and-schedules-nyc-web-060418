@@ -14,7 +14,8 @@ end
 def assign_rooms(array_of_speakers)
   messages = []
   room = 1
-  array_of_speakers.
+  array_of_speakers.each do |i|
+    
   
 end
 
