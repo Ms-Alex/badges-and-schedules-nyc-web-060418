@@ -17,7 +17,7 @@ def assign_rooms(array_of_speakers)
   array_of_speakers.each do |i|
     messages.push("Hello, #{i}! You'll be assigned to room #{room}!")
     room ++
-  end
+  
   
 end
 
