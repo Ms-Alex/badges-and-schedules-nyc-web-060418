@@ -14,7 +14,7 @@ end
 def assign_rooms(array_of_speakers)
   messages = []
   room = 1
-  
+  return messages
 end
 
 def printer (attendees)
