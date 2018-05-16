@@ -18,8 +18,6 @@ def assign_rooms(array_of_speakers)
 end
 
 def printer(attendees)
-  for i in attendees
-    puts batch_badge_creator(i)
-  end
+  puts batch_badge_creator(attendees)
   
 end
