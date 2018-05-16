@@ -19,7 +19,7 @@ end
 
 def printer(attendees)
   for i in attendees
-    puts batch_badge_creator(attendees)[i]
+    puts batch_badge_creator(i)
   end
   
 end
